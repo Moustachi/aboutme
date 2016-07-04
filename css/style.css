@@ -16,7 +16,8 @@ section {
     background-size: 105%;
     height: 28rem;
     overflow: auto;
-    width:50%;
+    width:50em;
+    margin: 0 auto;
 }
 
 .introduction > h1 {
