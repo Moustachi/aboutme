@@ -4,6 +4,34 @@
 	height: 100%;
 	width: 25rem;
 }
+section {
+	height: 20rem;
+	border: 1px solid red;
+}
+/* INTRODUCTION SECTION*/
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: 90% 20%;
+    background-repeat: no-repeat;
+    background-size: 105%;
+    height: 28rem;
+    overflow: auto;
+}
+
+.introduction > h1 {
+	font-size: 23pt;
+	font-weight: lighter;
+	margin-top: 15rem;
+	text-align: center;
+}
+/* NAVIGATION SECTION */
+nav {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+}
 .links li {
 	display: inline-block;
 	margin: 1rem;
@@ -17,17 +45,13 @@ ul {
 	padding: 0;
 	margin: 0 auto;
 }
-section {
-	height: 20rem;
-	border: 1px solid red;
+/* MY WORK SECTION*/
+.my-work {
+	height: 100%;
 }
 img {
 	display: block;
 	height: 18rem;
 	width: auto;
 	margin:0 auto;
-}
-/* MY WORK SECTION*/
-.my-work {
-	height: 100%;
 }
