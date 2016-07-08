@@ -69,7 +69,8 @@ html {
 
 @media (min-width: 1440px) {
 	hr{
-		margin-top: 3em;
+		margin-top: 5em;
+		width: 75%;
 	}
 	p{
 		font-size: 17pt;
@@ -79,14 +80,16 @@ html {
 		font-weight: 100;
 		margin-left: 14rem;
 		margin-top: 6rem;
-		margin-bottom: 3rem;
+		margin-bottom: 2rem;
 	}
 	section {
-		height: 47rem;
+		height: 100%;
 		width: 80%;
 		margin: 0 auto;
+		border: 1px solid black;
+
 	}
-	/* INTRODUCTION SECTION */
+/* INTRODUCTION SECTION */
 	.introduction {
     	background-image: url(../images/first-background.jpg);
     	background-position: 80% 100%;
@@ -110,12 +113,12 @@ html {
 		margin: 0 auto;
 		font-size: 18pt;
 	}
-	/* ABOUT SECTION */
+/* ABOUT SECTION */
 	.about-paragraph {
 		height: 15rem;
 		width: 38rem;
 		margin: 0 auto;
-		margin-top: 5rem;
+		margin-top: 4rem;
 	}
 	.about-avatar {
 		background-image: url(../images/goldblum.jpg);
@@ -126,5 +129,16 @@ html {
   		border-radius:50%;
   		overflow:hidden;
   		margin:auto;
+	}
+/* MY WORK SECTION */
+	.karma{
+		background-image: url(../images/karma-logo.svg);	
+ 		background-repeat: no-repeat;
+	}
+	.reddit{
+		background-image: url(../images/redditapp.jpg);
+	}
+	.shopping-list{
+		background-image: url(../images/shoppinglist.jpg);
 	}
 }
