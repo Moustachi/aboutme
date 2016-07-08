@@ -1,12 +1,10 @@
 .content {
 	margin: 0 auto;
-	border: 1px solid black;
 	height: 100%;
 	width: 100%;
 }
 section {
 	height: 20rem;
-	border: 1px solid red;
 }
 /* INTRODUCTION SECTION*/
 .introduction {
@@ -31,7 +29,6 @@ section {
 	width: 51%;
 	margin-left: 5%;
 	height: 11rem;
-	border: 1px solid black;
 }
 /* NAVIGATION SECTION */
 nav {
@@ -71,14 +68,18 @@ html {
 }
 
 @media (min-width: 1440px) {
+	hr{
+		margin-top: 3em;
+	}
 	p{
-		font-size: 15pt;
+		font-size: 17pt;
 	}
 	h2 {
-		font-size: 30pt;
+		font-size: 35pt;
+		font-weight: 100;
 		margin-left: 14rem;
-		margin-top: 5rem;
-		margin-bottom: 0;
+		margin-top: 6rem;
+		margin-bottom: 3rem;
 	}
 	section {
 		height: 47rem;
@@ -98,22 +99,23 @@ html {
 	}
 
 	.introduction > h1 {
-    	font-size: 52pt;
+    	font-size: 47pt;
     	margin-top: 11rem;
     	text-align: center;
+    	margin-bottom: 37px;
 	}
 	.introduction > p {
 		text-align: center;
-		width: 37rem;
+		width: 32rem;
 		margin: 0 auto;
-		font-size: 20pt;
+		font-size: 18pt;
 	}
 	/* ABOUT SECTION */
 	.about-paragraph {
-		height: 14rem;
-		width: 37rem;
+		height: 15rem;
+		width: 38rem;
 		margin: 0 auto;
-		margin-top: 3rem;
+		margin-top: 5rem;
 	}
 	.about-avatar {
 		background-image: url(../images/goldblum.jpg);
