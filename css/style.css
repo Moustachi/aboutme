@@ -7,86 +7,89 @@ section {
 	height: 20rem;
 }
 /* INTRODUCTION SECTION*/
-.introduction {
-    background-image: url('../images/first-background.jpg');
-    background-position: 90% 20%;
-    background-repeat: no-repeat;
-    background-size: 105%;
-    height: 47rem;
-    overflow: auto;
-    width:100%;
-    margin: 0 auto;
-}
-
-.introduction > h1 {
-	font-size: 60pt;
-	font-weight: lighter;
-	margin-top: 23rem;
-	text-align: center;
-}
+	.introduction {
+    	background-image: url('../images/first-background.jpg');
+    	background-position: 90% 20%;
+    	background-repeat: no-repeat;
+    	background-size: 105%;
+    	height: 47rem;
+    	overflow: auto;
+    	width:100%;
+    	margin: 0 auto;
+	}
+	.introduction > h1 {
+		font-size: 60pt;
+		font-weight: lighter;
+		margin-top: 23rem;
+		text-align: center;
+	}
 /*ABOUT SECTION*/
-.about-paragraph {
-	width: 51%;
-	margin-left: 5%;
-	height: 11rem;
-}
+	.about-paragraph {
+		width: 51%;
+		margin-left: 5%;
+		height: 11rem;
+	}
 /* NAVIGATION SECTION */
-nav {
-	background-color: #fff;
-	position: fixed;
-	width: 100%;
-    border-bottom: 1px solid #DDD;
-    z-index: 9999;
-    margin: 0 auto;
-}
-.links li {
-	display: inline-block;
-	margin: 1rem;
-	margin-top: 0;
-	margin-bottom: 0;
-}
-.links ul {
-	border: 1px solid black;	
-	width: 100%;
-	text-align: center;
-	padding: 0;
-	margin: 0 auto;
-}
+	nav {
+		background-color: #fff;
+		position: fixed;
+		width: 100%;
+    	border-bottom: 1px solid #DDD;
+    	z-index: 9999;
+    	margin: 0 auto;
+	}
+	.links li {
+		display: inline-block;
+		margin: 1rem;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.links ul {
+		border: 1px solid black;	
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		margin: 0 auto;
+	}
 /* MY WORK SECTION*/
-.my-work {
-	height: 100%;
-}
-img {
-	display: block;
-	height: 18rem;
-	width: auto;
-	margin:0 auto;
-}
+	.my-work {
+		height: 100%;
+	}
+	img {
+		display: block;
+		height: 18rem;
+		width: auto;
+		margin:0 auto;
+	}
 
-html {
-	font-family: 'Asap', sans-serif;
-}
-.work-label{
-	list-style: none;
-	border: 1px solid black;
-	text-align: center;
-}
-.work-label > li{
-	display: inline-block;
-	margin-right: 1rem;
-}
+	html {
+		font-family: 'Asap', sans-serif;
+	}
+	.work-label{
+		list-style: none;
+		border: 1px solid black;
+		text-align: center;
+	}
+	.work-label > li{
+		display: inline-block;
+		margin-right: 1rem;
+	}
 
-table {
-	border: 1px solid black;
-	width: 100%
-}
+	table {
+		border: 1px solid black;
+		margin: 0 auto;
+	}
+
+	th {
+		border: 1px solid black;
+	}
 
 @media (min-width: 1440px) {
 	hr{
 		margin-top: 5em;
 		width: 75%;
 	}
-	p{
+	p {
 		font-size: 17pt;
 	}
 	h2 {
@@ -101,9 +104,8 @@ table {
 		width: 80%;
 		margin: 0 auto;
 		border: 1px solid black;
-
 	}
-/* INTRODUCTION SECTION */
+	/* INTRODUCTION SECTION */
 	.introduction {
     	background-image: url(../images/first-background.jpg);
     	background-position: 80% 100%;
@@ -127,7 +129,7 @@ table {
 		margin: 0 auto;
 		font-size: 18pt;
 	}
-/* ABOUT SECTION */
+	/* ABOUT SECTION */
 	.about-paragraph {
 		height: 15rem;
 		width: 38rem;
@@ -143,32 +145,5 @@ table {
   		border-radius:50%;
   		overflow:hidden;
   		margin:auto;
-	}
-/* MY WORK SECTION */
-	.work-list {
-		border: 1px solid black;
-		text-align: center;
-	}
-	.work-list > li{
-		height: 200px;
-		width:200px;
-		border-radius: 50%;
-		display: inline-block;
-		border: 1px solid red;
-		background-position: center;
-		margin-right: 1.5rem;
-	}
-	.work-list > .karma{
-		background-image: url(../images/karma-logo.svg);	
- 		background-repeat: no-repeat;
- 		background-size: 110px;
-	}
-	.work-list > .reddit{
-		background-image: url(../images/redditapp.jpg);
-		background-repeat: no-repeat;
-	}
-	.work-list > .shopping-list{
-		background-image: url(../images/shoppinglist.jpg);
-		background-repeat: no-repeat;
 	}
 }
