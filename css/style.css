@@ -66,6 +66,20 @@ img {
 html {
 	font-family: 'Asap', sans-serif;
 }
+.work-label{
+	list-style: none;
+	border: 1px solid black;
+	text-align: center;
+}
+.work-label > li{
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+table {
+	border: 1px solid black;
+	width: 100%
+}
 
 @media (min-width: 1440px) {
 	hr{
@@ -136,21 +150,25 @@ html {
 		text-align: center;
 	}
 	.work-list > li{
-		height: 272px;
-		width:272px;
+		height: 200px;
+		width:200px;
 		border-radius: 50%;
 		display: inline-block;
 		border: 1px solid red;
+		background-position: center;
+		margin-right: 1.5rem;
 	}
-	.karma{
+	.work-list > .karma{
 		background-image: url(../images/karma-logo.svg);	
  		background-repeat: no-repeat;
+ 		background-size: 110px;
 	}
-	.reddit{
+	.work-list > .reddit{
 		background-image: url(../images/redditapp.jpg);
 		background-repeat: no-repeat;
 	}
-	.shopping-list{
+	.work-list > .shopping-list{
 		background-image: url(../images/shoppinglist.jpg);
+		background-repeat: no-repeat;
 	}
 }
