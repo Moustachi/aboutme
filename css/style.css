@@ -6,6 +6,13 @@
 section {
 	height: 20rem;
 }
+html {
+	font-family: 'Asap', sans-serif;
+}
+hr{
+	margin-top: 5em;
+	width: 75%;
+}
 /* INTRODUCTION SECTION*/
 	.introduction {
     	background-image: url('../images/first-background.jpg');
@@ -23,13 +30,13 @@ section {
 		margin-top: 23rem;
 		text-align: center;
 	}
-/*ABOUT SECTION*/
+/* ABOUT SECTION*/
 	.about-paragraph {
 		width: 51%;
 		margin-left: 5%;
 		height: 11rem;
 	}
-/* NAVIGATION SECTION */
+/* NAVIGATION SECTION*/
 	nav {
 		background-color: #fff;
 		position: fixed;
@@ -55,26 +62,6 @@ section {
 	.my-work {
 		height: 100%;
 	}
-	img {
-		display: block;
-		height: 18rem;
-		width: auto;
-		margin:0 auto;
-	}
-
-	html {
-		font-family: 'Asap', sans-serif;
-	}
-	.work-label{
-		list-style: none;
-		border: 1px solid black;
-		text-align: center;
-	}
-	.work-label > li{
-		display: inline-block;
-		margin-right: 1rem;
-	}
-
 	table {
 		border: 1px solid black;
 		margin: 0 auto;
@@ -83,12 +70,7 @@ section {
 	th {
 		border: 1px solid black;
 	}
-
 @media (min-width: 1440px) {
-	hr{
-		margin-top: 5em;
-		width: 75%;
-	}
 	p {
 		font-size: 17pt;
 	}
@@ -107,7 +89,7 @@ section {
 	}
 	/* INTRODUCTION SECTION */
 	.introduction {
-    	background-image: url(../images/first-background.jpg);
+    	background-image: url(http://i.imgur.com/kRSjpcG.jpg);
     	background-position: 80% 100%;
     	background-repeat: no-repeat;
     	background-size: 105%;
