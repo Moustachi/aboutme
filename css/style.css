@@ -1,7 +1,7 @@
 .content {
-	margin: 0 auto;
+	margin: 10px auto;
 	height: 100%;
-	width: 100%;
+	width: 61em;
 }
 section {
 	height: 20rem;
@@ -25,7 +25,7 @@ h2 {
     	background-size: 105%;
     	height: 25rem;
     	overflow: auto;
-    	width:100%;
+    	width: 61em;
     	margin: 0 auto;
 	}
 	.introduction > h1 {
@@ -87,31 +87,6 @@ h2 {
 	.my-work {
 		height: 100%;
 	}
-	table {
-		border: 1px solid black;
-		margin: 0 auto;
+	.screenshots {
+		text-align: center;
 	}
-
-	th {
-		border: 1px solid black;
-	}
-	td {
-		height: 13em;
-		width: 13em;
-	}
-	.karma {
-		background-image: url(../images/karma-logo.svg);
-		background-size: 50%;
-		background-repeat: no-repeat;
-		background-position: 50px 26px;
-	}
-
-
-	.reddit {
-		background-image: url(../images/redditapp.jpg);
-		background-size: 9em;
-    	background-repeat: no-repeat;
-    	background-position: center;
-    	border-radius: 22em;
-	}
-
